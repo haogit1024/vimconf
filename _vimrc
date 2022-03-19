@@ -56,6 +56,8 @@ set ts=4
 set expandtab
 
 inoremap jk <Esc>
+nnoremap <C-l> <C-w>l
+nnoremap <C-h> <C-w>h
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
